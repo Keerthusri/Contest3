@@ -1,0 +1,70 @@
+.container{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.image1{
+    width: 900px;
+}
+.color{
+    background-color:  gainsboro;
+    width: 100%;
+    
+}
+span{
+    padding:10px;
+}
+.container1{
+    display: flex;
+}
+.ok1{
+    padding: 0px 10px;
+}
+.ok2{
+    margin: 0px 10px;
+    margin-bottom: 20px;
+}
+.sp{
+    padding: 10px;
+}
+.image{
+    width: 276px;
+    height: 150px;
+}
+.hi{
+    margin-left: 20px;
+    border:2px solid gainsboro;
+}
+.ok{
+    border:2px solid gainsboro;
+}
+button{
+    color:white;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+.wid{
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+td{
+    padding:10px 0px;
+    border-bottom: 1px solid gainsboro;
+}
+th{
+    border-bottom: 2px solid gainsboro;
+    border-top: 1px solid gainsboro;
+    padding:10px 0px;
+}
+@media screen and (max-width:480px){
+    .container{
+        width: auto;
+        padding: 0px 10px;
+
+    }
+    .container1{
+        display: block;
+    }
+}
